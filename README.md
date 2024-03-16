@@ -1,1 +1,1 @@
-# bmi-calculator2
+# bmi-calculator

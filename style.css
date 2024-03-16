@@ -1,0 +1,114 @@
+*{
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#text{
+    margin-bottom: 100px;
+    font-size: 2rem;
+}
+
+#text p{
+    padding: 2rem 10rem 0rem 10rem; 
+    text-align: justify;
+    font-size: 1.4rem;
+    text-indent: 2rem;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+}
+
+#first{
+    margin: auto;
+    border: 5px solid blue;
+    height: 20rem;
+    width: 30rem;
+    font-size: 200%;
+    border-radius: 1rem;
+}
+
+#first #title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem auto 1rem auto;
+    border-radius: 1rem;
+}
+
+label{
+    float: left;
+    width: 200px;
+    margin-left: 5rem;
+}
+
+input{
+    float: left;
+    font-size: 1rem;
+    text-align: center;
+    width: 4.5rem;
+    height: 1.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    margin-left: -0,7rem;
+    margin-right: -5rem;
+}
+
+.button{
+    width: 8.5rem;
+    font-size: 1.6rem;
+    border-radius:1rem ;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    transition: 0.5s ease;
+}
+.button:hover{
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#numbers{
+    margin-top: 1.4rem;
+}
+
+
+#height, #weight{
+    margin-top: 0.55rem;
+}
+
+
+#second{
+    margin: auto;
+    border: 5px solid blue;
+    height: 20rem;
+    width: 30rem;
+    font-size: 200%;
+    border-radius: 1rem;
+}
+
+#second #title2{
+    font-size: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem auto 1rem auto;
+    border-radius: 1rem;
+}
+
+#second li{
+    list-style-type: none;
+    margin: auto auto 0.8rem auto;
+    max-width: 85%;
+    border-radius: 1rem;
+}

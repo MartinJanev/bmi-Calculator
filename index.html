@@ -11,7 +11,7 @@
 <div id="text">
     <h1>BMI Calculator</h1>
     <p>
-        BMI is a measurement of a person's leanness or corpulence based on their
+    BMI is a measurement of a person's leanness or corpulence based on their
         height and weight, and is intended to quantify tissue mass. It is widely
         used as a general indicator of whether a person has a healthy body
         weight for their height. Specifically, the value obtained from the
@@ -37,21 +37,18 @@
             <div class="weight">
                 <label>Add weight: </label>
                 <input type="text" id="weight" placeholder="ex. 85"><span> kg</span></input>
-            <div>
-            <button class="button" onclick="calculateBMI()">Calculate</button>
-        </div>    
+                
+                <div><button class="button" onclick="calculateBMI()">Calculate</button></div>    
+            </div>
+        <div id="numbers"><span>Your BMI: </span><span id="bmi"> 0</span></div>
     </div>
-
-    <div id="numbers"><span>Your BMI: </span><span id="bmi"> 0</span></div>
-
-</div>
 
     <div id="second">
         <div id="title2"><h1>Categories</h1></div>
         <ul id="Categories">
             <li id="underweight">Underweight = &lt 18.5</li>
-            <li id="normal">Normal weight = 18.5–24.9</li>
-            <li id="overweight">Overweight = 25–29.9</li>
+            <li id="normal">Normal weight = 18.5 - 24.9</li>
+            <li id="overweight">Overweight = 25 - 29.9</li>
             <li id="obese">Obesity = BMI of 30 or greater</li>
         </ul>
     
